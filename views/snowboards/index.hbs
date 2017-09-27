@@ -1,0 +1,8 @@
+<h1>{{company.name}}'s Snowboards</h1>
+
+{{#each companies.snowboards}}
+<div>
+    {{this.name}} - {{this.contry}}
+    <a href="companies/{{this.name}}"></a>
+</div>
+{{/each}}
